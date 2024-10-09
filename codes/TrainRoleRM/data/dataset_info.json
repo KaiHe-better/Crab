@@ -1,0 +1,31 @@
+{
+   
+    "score_test_for_LLM": {
+        "file_name": "score_test_for_LLM.json",
+        "formatting": "sharegpt",
+        "columns": {
+            "messages": "conversations",
+            "system": "system"
+        },
+        "tags": {
+            "role_tag": "from",
+            "content_tag": "value",
+            "user_tag": "dialogue",
+            "assistant_tag": "scorer"
+        }
+    },
+    "data_score_train": {
+        "file_name": "data_score_train.json",
+        "formatting": "sharegpt",
+        "columns": {
+            "messages": "conversations",
+            "system": "system"
+        },
+        "tags": {
+            "role_tag": "from",
+            "content_tag": "value",
+            "user_tag": "dialogue",
+            "assistant_tag": "scorer"
+        }
+    }
+}

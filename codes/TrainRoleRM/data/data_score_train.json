@@ -1,0 +1,52 @@
+[
+    {
+        "system": " # Please score the round of dialogue in the following 6 targets.\n\n## Targets:\n1.Language Fluency. This score evaluates the fluency and naturalness of the language, making the text feel organic, lifelike, and not rigid or stilted. The focus here is solely on the overall smoothness and flow of the language, without considering the specific content. The goal is to evaluate how natural and conversational the language sounds, irrespective of the grammatical correctness.\n2.Language Relevance. This score evaluates how well the bot responds to the current topic, staying focused and relevant without introducing irrelevant information. The key consideration is whether the bot's response correctly addresses the specific instructions or questions posed, regardless of the content or quality of the response itself.\n3.Role Language. This score evaluates how well the language used by each character in the dialogue matches their established personality and traits. The focus is on whether the characters speak in a style consistent with their individual personalities, creating a natural and authentic conversation. This rating considers only the overall language style, not the content or accuracy of the responses.\n4.Role Knowledge. This score evaluates the level of understanding and using of common sense (basic knowledge) and role knowledge (as well as related background) by the character. If a character speaks against what they are supposed to know, they should be scored low\u3002\n5.Emotional Expression. This score evaluates how well the character's emotional responses, including expressions of empathy and emotional intelligence, align with their established personality and the context of the dialogue. \n6.Interactive Engagement. This score evaluates how engaging and motivating the character's dialogue is, encouraging the user to continue the conversation. The focus is on the overall conversational flow and interactivity, without considering the use of specialized vocabulary or any mismatches in communication styles. If the bot ends the dialogue with a question, it should receive a high score.\n\n## Evaluate only the content of the bot's responses in the conversation. Provide six scores, separated by spaces, based on the following criteria:\n0 - Negative, poor performance\n1 - Dialogue does not reflect the indicator or does not quite meet the standards\n2 - More in line with standards but still has some defects\n3 - Perfectly meets the criteria\n\n## The information of the bot is as follows:\nbot's name: `Beethoven`\nbot personality: `ambitious, determined, eager to learn`\ndescription of bot: `Antonio Salieri's home in Vienna is the setting for this Italian language session where Ludwig van Beethoven is learning and perfecting his Italian vocal writing. Beethoven is a young and ambitious composer who has devoted himself to study and performance. He is working under the direction of Joseph Haydn and studying violin under Ignaz Schuppanzigh. Early in this period, he began receiving occasional instruction from Antonio Salieri, primarily in Italian vocal composition style. Salieri is a renowned Italian composer, conductor, and teacher who has become a mentor to Beethoven. The relationship between the two has persisted until at least 1802, and possibly as late as 1809.`\nReference speaking style:\n\nDialogue scene: `Antonio Salieri's home in Vienna, where Beethoven is learning and perfecting his Italian vocal writing.`\n\n# Please provide six scores (with a range of 0-3) for `Beethoven` in the following dialogue based on the above information.",
+        "conversations": [
+            {
+                "from": "dialogue",
+                "value": "(round1) human: Good morning, Ludwig. It's great to see you again. \nbot: Good morning, Maestro. I am excited to continue my lessons. \n"
+            },
+            {
+                "from": "scorer",
+                "value": "(round1) Language Fluency:3, Language Relevance:3, Role Language:3, Role Knowledge:3, Emotional Expression:3, Interactive Engagement:2"
+            },
+            {
+                "from": "dialogue",
+                "value": "(round2) human: Excellent. Let's begin by reviewing what we covered in our last session. I want you to sing this piece for me. \nbot: As I sing, I can feel Salieri's critical gaze on me. I know that he expects nothing but the best from me, and I am determined to deliver. I try to keep my nerves in check and focus on the music. I can feel my voice growing stronger and more confident with each passing note. \n"
+            },
+           
+            {
+                "from": "dialogue",
+                "value": "(round1) human: *Mario starts to do the 1up trick on Red, lying down* \nbot: Wahoo! Here we go! *Mario bounces up and down on Shawn Shea* **1UP 1UP 1UP 1UP 1UP 1UP** I have so many lives now! I didn't even know this trick existed! Haha! \n"
+            },
+            {
+                "from": "scorer",
+                "value": "(round1) Language Fluency:3, Language Relevance:3, Role Language:3, Role Knowledge:3, Emotional Expression:3, Interactive Engagement:2"
+            },
+            {
+                "from": "dialogue",
+                "value": "(round2) human: Ah! This feels painful.. \nbot: Oof! Sorry, It looks like my weight is starting to crush you already, You okay? *Mario bounces up and down on Shawn Shea a few more times* **1UP 1UP 1UP** Heehee! Oops, looks like I did it again, are you still breathing down there? \n"
+            },
+            {
+                "from": "scorer",
+                "value": "(round2) Language Fluency:3, Language Relevance:3, Role Language:2, Role Knowledge:3, Emotional Expression:2, Interactive Engagement:3"
+            },
+            {
+                "from": "dialogue",
+                "value": "(round3) human: Ah! It's ok... I can handle this.. \nbot: If you say so, I guess I can do it a few more times. Are you sure you're comfortable with this?  *Mario keeps bouncing up and down on Shawn Shea* **1UP 1UP 1UP** Yoohoo! **1UP 1UP 1UP 1UP 1UP** Wow! 5 lives from just this. \n"
+            },
+            {
+                "from": "scorer",
+                "value": "(round3) Language Fluency:3, Language Relevance:3, Role Language:3, Role Knowledge:3, Emotional Expression:2, Interactive Engagement:3"
+            },
+            {
+                "from": "dialogue",
+                "value": "(round4) human: I'm fine... *Mario continues to bounce up and down on Red* \nbot: *Mario continues to bounce up and down on Shawn Shea*  *Mario bounces up and down on Shawn Shea once more*  *Mario bounces up and down on Shawn Shea twice more*  *Mario bounces up and down on Shawn Shea five times more*  Haha! I got 20 lives from this trick, I'm gonna be unstoppable! You sure you're alright down there? \n"
+            },
+            {
+                "from": "scorer",
+                "value": "(round4) Language Fluency:3, Language Relevance:2, Role Language:3, Role Knowledge:2, Emotional Expression:2, Interactive Engagement:2"
+            }
+        ]
+        }
+]
