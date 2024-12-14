@@ -20,7 +20,7 @@ We also include a reference response for each query.
 Each record contains the generated responses on our benchmarks and their scores judged by RoleRM.
 The record with `uid 439` is the case study presents at Table 5.
 
-Note: Due to the size limitation, we only provide a random subset for each datasets: 1000 for training data, 100 for benchmark data and results.
+Note: Due to the size limitation, we only provide a random subset for each datasets: 1000 for training data, 100 for benchmark data and results here. Complete data will publish at Huggingface later.
 
 ## Code
 ### Training data for Crab-Llama3.1
