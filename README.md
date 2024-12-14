@@ -1,4 +1,8 @@
 # Data and code for "Crab: A Novel Configurable Role-Playing LLM with Assessing Benchmark"
+
+## Model
+Our pretrained LLMs can be downloaded from https://huggingface.co/HeAAAAA/Crab/tree/main/Crab/model
+
 ## Data
 ### Training data for Crab
 `data\train\crab_train_data.json`
