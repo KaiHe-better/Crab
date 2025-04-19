@@ -1,7 +1,7 @@
 # Data and code for "Crab: A Novel Configurable Role-Playing LLM with Assessing Benchmark"
 
 ## Model
-Our pretrained LLMs can be downloaded from https://huggingface.co/HeAAAAA/Crab/tree/main/Crab/model
+Our fine-tuned two LLMs and four datasets can be downloaded (eaiser usage) from [Crab at Huggingface](https://huggingface.co/HeAAAAA/Crab)
 
 ## Data
 ### Training data for Crab
@@ -25,3 +25,14 @@ Note: Due to the size limitation, we only provide a random subset for each datas
 ## Code
 ### Training data for Crab-Llama3.1
 See `codes\TrainLLM\README.md`.
+
+
+
+## Citation
+
+```bibtex
+@misc{kimiteam2025kimivltechnicalreport,
+  title={Crab: A Novel Configurable Role-Playing LLM with Assessing Benchmark},
+  author={Kai He, Yucheng Huang, Wenqing Wang, et.al.},
+  year={2025},
+}
