@@ -31,8 +31,9 @@ See `codes\TrainLLM\README.md`.
 ## Citation
 
 ```bibtex
-@misc{kimiteam2025kimivltechnicalreport,
+@inproceedings{he2025Crab,
   title={Crab: A Novel Configurable Role-Playing LLM with Assessing Benchmark},
-  author={Kai He, Yucheng Huang, Wenqing Wang, et.al.},
-  year={2025},
+  author={Kai, He and Yucheng, Huang and  Wenqing,  Wang  and   Delong,  Ran  and   Dongming,  Sheng  and   Junxuan,  Huang  and   Qika,  Lin and Jiaxing,  Xu  and  Wenqiang,  Liu and  Mengling,  Feng},
+  booktitle={Proceedings of the 63nd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)},
+  year={2025}
 }
